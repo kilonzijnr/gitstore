@@ -7,6 +7,7 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { UserComponent } from './user/user.component';
 import { RepositoryComponent } from './repository/repository.component';
 import { UserrepoComponent } from './userrepo/userrepo.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { UserrepoComponent } from './userrepo/userrepo.component';
     HomepageComponent,
     UserComponent,
     RepositoryComponent,
-    UserrepoComponent
+    UserrepoComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
