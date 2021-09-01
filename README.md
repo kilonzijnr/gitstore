@@ -1,9 +1,9 @@
 # GIT STORE
 This is a clone app of Github that gives you link to github accounts for several users.
 
-# By Victor Kilonzi.
+### By Victor Kilonzi.
 
-# Setup/Installation
+### Setup/Installation
 *Make sure you device has internet connectivity.
 #
 *Run `ng serve` for a dev server. 
@@ -14,8 +14,9 @@ This is a clone app of Github that gives you link to github accounts for several
 #
 *Now surf through the site as you create and share quotes as well as reading quotes from other users
 
-# Known Bugs
-# Technologies Used
+#### Known Bugs
+#
+#### Technologies Used
 *HTML
 #
 *Typescript
@@ -33,5 +34,5 @@ victor.kilonzi@student.moringaschool.com
 ### License
 [MIT] (https://github.com/kilonzijnr/gitstore/blob/master/License)
 
-# Copyright (c) 2021 Victor Kilonzi.
+### Copyright (c) 2021 Victor Kilonzi.
 
