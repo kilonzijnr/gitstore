@@ -28,7 +28,8 @@ This is a clone app of Github that gives you link to github accounts for several
 *Bootstrap
 
 ### Support and contact details
-*Contact me through:
+Contact me through:
+#
 victor.kilonzi@student.moringaschool.com
 
 ### License
