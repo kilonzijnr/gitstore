@@ -26,11 +26,11 @@ This is a clone app of Github that gives you link to github accounts for several
 #
 *Bootstrap
 
-# Support and contact details
+### Support and contact details
 *Contact me through:
 victor.kilonzi@student.moringaschool.com
 
-# License
+### License
 [MIT] (https://github.com/kilonzijnr/gitstore/blob/master/License)
 
 # Copyright (c) 2021 Victor Kilonzi.
