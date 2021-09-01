@@ -1,14 +1,21 @@
 h1 {
   text-align: center;
-  color: black;
+  color: white;
 }
 body {
-  background: #43c6ac;
-  background: -webkit-linear-gradient(to right, #f8ffae, #43c6ac);
-  background: linear-gradient(to right, #f8ffae, #43c6ac);
+  background: #141e30; 
+  background: -webkit-linear-gradient(
+    to top,
+    #243b55,
+    #141e30
+  ); 
+  background: linear-gradient(
+    to top,
+    #243b55,
+    #141e30
+  ); 
 
-  background-size: contain;
-  width: 100%;
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
