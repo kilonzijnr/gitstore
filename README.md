@@ -17,9 +17,13 @@ This is a clone app of Github that gives you link to github accounts for several
 # Known Bugs
 # Technologies Used
 *HTML
+#
 *Typescript
+#
 *css
+#
 *Javascript
+#
 *Bootstrap
 
 # Support and contact details
