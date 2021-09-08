@@ -15,7 +15,7 @@ This is a clone app of Github that gives you link to github accounts for several
 *Now surf through the site as you create and share quotes as well as reading quotes from other users
 
 #### Known Bugs
-#
+The current version is not able to display repositories
 #### Technologies Used
 *HTML
 #
