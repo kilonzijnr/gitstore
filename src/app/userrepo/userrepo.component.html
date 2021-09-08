@@ -1,1 +1,16 @@
-<p>userrepo works!</p>
+<form>
+  <input
+    type="text"
+    class="form-control"
+    placeholder="Repository"
+    [(ngModel)]="result"
+    name="result"
+    (keyup)="searchUserRepo()"
+    autocomplete="off"
+  />
+</form>
+<div>
+  <p>Repository Name:{{ UserRepo.name }}</p>
+  <p>{{ UserRepo.html_url }}</p>
+  <p>{{ UserRepo.description }}</p>
+</div>

@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import {User} from "../user";
+
 import { SearchService } from '../searchservice/search.service';
 @Component({
   selector: 'app-user',
-  templateUrl: './user.component.html',
+  templateUrl:'./user.component.html',
   styleUrls: ['./user.component.css']
 })
 export class UserComponent implements OnInit {
@@ -12,9 +13,11 @@ export class UserComponent implements OnInit {
   result: string =''
 
   constructor(private searchService: SearchService) { }
-searchUerser() {
+searchUser() {
   this.searchService.userRequest(this.result)
   this.User = this.searchService.user
+  console.log(this.User);
+  
 }
 searchUserRepo(){
   this.searchService.userRepoRequest(this.result).subscribe((UserRepos: any)=>{

@@ -1,8 +1,28 @@
-<body>
-    <h1 class="heading">GIT STORE</h1>
-    <div class="container">
-      <div id="card">
-        <p>Name: {{User.userName}}</p>
-      </div>
+<div id="bdy">
+  <h1 class="heading">GIT STORE</h1>
+  <div class="container">
+    <form>
+      <input
+        type="text"
+        class="form-control"
+        placeholder="UserName"
+        [(ngModel)]="result"
+        name="result"
+        (keyup)="searchUser()"
+        autocomplete="off"
+      />
+      <button type="button" onclick="searchUser()" >SEARCH User</button>
+    </form>
+    <br/>
+    <div class="card">
+      <p><b>Avatar: </b>  <img src="{{ User.photo }}" /></p>
+      <p><b>UserName: </b>{{ User.userName }}</p>
+      <p><b>Following: </b>{{ User.followers }}</p>
+      <p><b>Followers: </b> {{ User.following }}</p>
+      <p><b>Repositories: </b> {{ User.repos }}</p>
+      <p><b>Bio: </b> {{ User.bio }}</p>
+    
+      <button (click)= 'searchUserRepo()'>View Repositories</button>
     </div>
-  </body>
+  </div>
+</div>
